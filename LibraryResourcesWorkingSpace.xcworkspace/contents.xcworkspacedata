@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:LibraryResources/HRPTableViewSample/HRPTableViewSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryResources/HRPTableView/HRPTableView.xcodeproj">
+   </FileRef>
+</Workspace>

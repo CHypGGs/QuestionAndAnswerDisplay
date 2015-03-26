@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21569C919A726A40043157A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21569C819A726A40043157A /* Foundation.framework */; };
+		C21569CB19A726A40043157A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21569CA19A726A40043157A /* CoreGraphics.framework */; };
+		C21569CD19A726A40043157A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21569CC19A726A40043157A /* UIKit.framework */; };
+		C21569D319A726A40043157A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C21569D119A726A40043157A /* InfoPlist.strings */; };
+		C21569D519A726A40043157A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C21569D419A726A40043157A /* main.m */; };
+		C21569D919A726A40043157A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C21569D819A726A40043157A /* AppDelegate.m */; };
+		C21569DB19A726A40043157A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21569DA19A726A40043157A /* Images.xcassets */; };
+		C21569E219A726A40043157A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21569E119A726A40043157A /* XCTest.framework */; };
+		C21569E319A726A40043157A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21569C819A726A40043157A /* Foundation.framework */; };
+		C21569E419A726A40043157A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21569CC19A726A40043157A /* UIKit.framework */; };
+		C21569EC19A726A40043157A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C21569EA19A726A40043157A /* InfoPlist.strings */; };
+		C21569EE19A726A40043157A /* HRPTableViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21569ED19A726A40043157A /* HRPTableViewSampleTests.m */; };
+		C2156A1F19A728FD0043157A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2156A1E19A728FD0043157A /* RootViewController.m */; };
+		C2156A3B19A72A7C0043157A /* HRPTableViewResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2156A3919A72A7C0043157A /* HRPTableViewResource.bundle */; };
+		C2156A3C19A72A7C0043157A /* libHRPTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2156A3A19A72A7C0043157A /* libHRPTableView.a */; };
+		C2156A3E19A72A880043157A /* libHRPTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2156A3D19A72A880043157A /* libHRPTableView.a */; };
+		C2156A4219A72AE20043157A /* QuestionEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C2156A4119A72AE20043157A /* QuestionEntities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21569E519A726A40043157A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21569BD19A726A40043157A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21569C419A726A40043157A;
+			remoteInfo = HRPTableViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C21569C519A726A40043157A /* HRPTableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRPTableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21569C819A726A40043157A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C21569CA19A726A40043157A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C21569CC19A726A40043157A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C21569D019A726A40043157A /* HRPTableViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRPTableViewSample-Info.plist"; sourceTree = "<group>"; };
+		C21569D219A726A40043157A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C21569D419A726A40043157A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C21569D619A726A40043157A /* HRPTableViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HRPTableViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		C21569D719A726A40043157A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C21569D819A726A40043157A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C21569DA19A726A40043157A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C21569E019A726A40043157A /* HRPTableViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRPTableViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21569E119A726A40043157A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C21569E919A726A40043157A /* HRPTableViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRPTableViewSampleTests-Info.plist"; sourceTree = "<group>"; };
+		C21569EB19A726A40043157A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C21569ED19A726A40043157A /* HRPTableViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRPTableViewSampleTests.m; sourceTree = "<group>"; };
+		C2156A0919A727B20043157A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C2156A0C19A727B20043157A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2156A0D19A727B20043157A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2156A0E19A727B20043157A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C2156A1119A727B20043157A /* HRPTableViewResource-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRPTableViewResource-Info.plist"; sourceTree = "<group>"; };
+		C2156A1319A727B20043157A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2156A1519A727B20043157A /* HRPTableViewResource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HRPTableViewResource-Prefix.pch"; sourceTree = "<group>"; };
+		C2156A1D19A728FD0043157A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C2156A1E19A728FD0043157A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C2156A3819A72A7C0043157A /* HRPTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPTableView.h; sourceTree = "<group>"; };
+		C2156A3919A72A7C0043157A /* HRPTableViewResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HRPTableViewResource.bundle; sourceTree = "<group>"; };
+		C2156A3A19A72A7C0043157A /* libHRPTableView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHRPTableView.a; sourceTree = "<group>"; };
+		C2156A3D19A72A880043157A /* libHRPTableView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHRPTableView.a; path = "../../../../Library/Developer/Xcode/DerivedData/LibraryResourcesWorkingSpace-asuopidxttbxyfeejnuciplwpivf/Build/Products/Debug-iphoneos/libHRPTableView.a"; sourceTree = "<group>"; };
+		C2156A4019A72AE20043157A /* QuestionEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionEntities.h; sourceTree = "<group>"; };
+		C2156A4119A72AE20043157A /* QuestionEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionEntities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21569C219A726A40043157A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2156A3C19A72A7C0043157A /* libHRPTableView.a in Frameworks */,
+				C21569CB19A726A40043157A /* CoreGraphics.framework in Frameworks */,
+				C21569CD19A726A40043157A /* UIKit.framework in Frameworks */,
+				C21569C919A726A40043157A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21569DD19A726A40043157A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2156A3E19A72A880043157A /* libHRPTableView.a in Frameworks */,
+				C21569E219A726A40043157A /* XCTest.framework in Frameworks */,
+				C21569E419A726A40043157A /* UIKit.framework in Frameworks */,
+				C21569E319A726A40043157A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C21569BC19A726A40043157A = {
+			isa = PBXGroup;
+			children = (
+				C21569CE19A726A40043157A /* HRPTableViewSample */,
+				C21569E719A726A40043157A /* HRPTableViewSampleTests */,
+				C2156A0F19A727B20043157A /* HRPTableViewResource */,
+				C21569C719A726A40043157A /* Frameworks */,
+				C21569C619A726A40043157A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21569C619A726A40043157A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21569C519A726A40043157A /* HRPTableViewSample.app */,
+				C21569E019A726A40043157A /* HRPTableViewSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21569C719A726A40043157A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2156A3D19A72A880043157A /* libHRPTableView.a */,
+				C21569C819A726A40043157A /* Foundation.framework */,
+				C21569CA19A726A40043157A /* CoreGraphics.framework */,
+				C21569CC19A726A40043157A /* UIKit.framework */,
+				C21569E119A726A40043157A /* XCTest.framework */,
+				C2156A0919A727B20043157A /* Cocoa.framework */,
+				C2156A0B19A727B20043157A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C21569CE19A726A40043157A /* HRPTableViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				C21569D719A726A40043157A /* AppDelegate.h */,
+				C21569D819A726A40043157A /* AppDelegate.m */,
+				C2156A1D19A728FD0043157A /* RootViewController.h */,
+				C2156A1E19A728FD0043157A /* RootViewController.m */,
+				C21569DA19A726A40043157A /* Images.xcassets */,
+				C2156A3F19A72AE20043157A /* Model */,
+				C2156A2019A729870043157A /* Support */,
+				C21569CF19A726A40043157A /* Supporting Files */,
+			);
+			path = HRPTableViewSample;
+			sourceTree = "<group>";
+		};
+		C21569CF19A726A40043157A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21569D019A726A40043157A /* HRPTableViewSample-Info.plist */,
+				C21569D119A726A40043157A /* InfoPlist.strings */,
+				C21569D419A726A40043157A /* main.m */,
+				C21569D619A726A40043157A /* HRPTableViewSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C21569E719A726A40043157A /* HRPTableViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C21569ED19A726A40043157A /* HRPTableViewSampleTests.m */,
+				C21569E819A726A40043157A /* Supporting Files */,
+			);
+			path = HRPTableViewSampleTests;
+			sourceTree = "<group>";
+		};
+		C21569E819A726A40043157A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21569E919A726A40043157A /* HRPTableViewSampleTests-Info.plist */,
+				C21569EA19A726A40043157A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2156A0B19A727B20043157A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2156A0C19A727B20043157A /* Foundation.framework */,
+				C2156A0D19A727B20043157A /* CoreData.framework */,
+				C2156A0E19A727B20043157A /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C2156A0F19A727B20043157A /* HRPTableViewResource */ = {
+			isa = PBXGroup;
+			children = (
+				C2156A1019A727B20043157A /* Supporting Files */,
+			);
+			path = HRPTableViewResource;
+			sourceTree = "<group>";
+		};
+		C2156A1019A727B20043157A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2156A1119A727B20043157A /* HRPTableViewResource-Info.plist */,
+				C2156A1219A727B20043157A /* InfoPlist.strings */,
+				C2156A1519A727B20043157A /* HRPTableViewResource-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2156A2019A729870043157A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C2156A3819A72A7C0043157A /* HRPTableView.h */,
+				C2156A3919A72A7C0043157A /* HRPTableViewResource.bundle */,
+				C2156A3A19A72A7C0043157A /* libHRPTableView.a */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C2156A3F19A72AE20043157A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2156A4019A72AE20043157A /* QuestionEntities.h */,
+				C2156A4119A72AE20043157A /* QuestionEntities.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21569C419A726A40043157A /* HRPTableViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21569F119A726A40043157A /* Build configuration list for PBXNativeTarget "HRPTableViewSample" */;
+			buildPhases = (
+				C21569C119A726A40043157A /* Sources */,
+				C21569C219A726A40043157A /* Frameworks */,
+				C21569C319A726A40043157A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRPTableViewSample;
+			productName = HRPTableViewSample;
+			productReference = C21569C519A726A40043157A /* HRPTableViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21569DF19A726A40043157A /* HRPTableViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21569F419A726A40043157A /* Build configuration list for PBXNativeTarget "HRPTableViewSampleTests" */;
+			buildPhases = (
+				C21569DC19A726A40043157A /* Sources */,
+				C21569DD19A726A40043157A /* Frameworks */,
+				C21569DE19A726A40043157A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21569E619A726A40043157A /* PBXTargetDependency */,
+			);
+			name = HRPTableViewSampleTests;
+			productName = HRPTableViewSampleTests;
+			productReference = C21569E019A726A40043157A /* HRPTableViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21569BD19A726A40043157A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hao Runpeng";
+				TargetAttributes = {
+					C21569DF19A726A40043157A = {
+						TestTargetID = C21569C419A726A40043157A;
+					};
+				};
+			};
+			buildConfigurationList = C21569C019A726A40043157A /* Build configuration list for PBXProject "HRPTableViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C21569BC19A726A40043157A;
+			productRefGroup = C21569C619A726A40043157A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21569C419A726A40043157A /* HRPTableViewSample */,
+				C21569DF19A726A40043157A /* HRPTableViewSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C21569C319A726A40043157A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21569D319A726A40043157A /* InfoPlist.strings in Resources */,
+				C2156A3B19A72A7C0043157A /* HRPTableViewResource.bundle in Resources */,
+				C21569DB19A726A40043157A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21569DE19A726A40043157A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21569EC19A726A40043157A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21569C119A726A40043157A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21569D919A726A40043157A /* AppDelegate.m in Sources */,
+				C21569D519A726A40043157A /* main.m in Sources */,
+				C2156A4219A72AE20043157A /* QuestionEntities.m in Sources */,
+				C2156A1F19A728FD0043157A /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21569DC19A726A40043157A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21569EE19A726A40043157A /* HRPTableViewSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C21569E619A726A40043157A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21569C419A726A40043157A /* HRPTableViewSample */;
+			targetProxy = C21569E519A726A40043157A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C21569D119A726A40043157A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21569D219A726A40043157A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C21569EA19A726A40043157A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21569EB19A726A40043157A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2156A1219A727B20043157A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2156A1319A727B20043157A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C21569EF19A726A40043157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C21569F019A726A40043157A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21569F219A726A40043157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRPTableViewSample/HRPTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "HRPTableViewSample/HRPTableViewSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/haorunpeng/Desktop/静态库资源的问题/LibraryResources/HRPTableViewSample/HRPTableViewSample/Support",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C21569F319A726A40043157A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRPTableViewSample/HRPTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "HRPTableViewSample/HRPTableViewSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/haorunpeng/Desktop/静态库资源的问题/LibraryResources/HRPTableViewSample/HRPTableViewSample/Support",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C21569F519A726A40043157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HRPTableViewSample.app/HRPTableViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRPTableViewSample/HRPTableViewSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HRPTableViewSampleTests/HRPTableViewSampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LibraryResourcesWorkingSpace-asuopidxttbxyfeejnuciplwpivf/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C21569F619A726A40043157A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HRPTableViewSample.app/HRPTableViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRPTableViewSample/HRPTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "HRPTableViewSampleTests/HRPTableViewSampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LibraryResourcesWorkingSpace-asuopidxttbxyfeejnuciplwpivf/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21569C019A726A40043157A /* Build configuration list for PBXProject "HRPTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21569EF19A726A40043157A /* Debug */,
+				C21569F019A726A40043157A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21569F119A726A40043157A /* Build configuration list for PBXNativeTarget "HRPTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21569F219A726A40043157A /* Debug */,
+				C21569F319A726A40043157A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21569F419A726A40043157A /* Build configuration list for PBXNativeTarget "HRPTableViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21569F519A726A40043157A /* Debug */,
+				C21569F619A726A40043157A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C21569BD19A726A40043157A /* Project object */;
+}
